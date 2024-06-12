@@ -1,0 +1,68 @@
+/* audienceBuilder.css */
+
+.container {
+    max-width: 700px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5px;
+    color: #333;
+}
+
+.rule {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.rule select, .rule input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.rule input {
+    width: 30%;
+}
+
+button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.condition {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.condition select {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #333;
+}

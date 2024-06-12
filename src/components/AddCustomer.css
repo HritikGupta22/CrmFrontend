@@ -1,0 +1,30 @@
+
+.customer-form {
+    margin: 1rem;
+    font-size: .6rem;
+  }
+  
+  .customer-form input,
+  .customer-form button {
+    font-size: 12px; 
+    padding: 8px; 
+    margin: 5px 0; 
+  }
+  
+  .customer-form input {
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  .customer-form button {
+    width: 100%; 
+    background-color: #0537ef; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+  }
+  
+  .customer-form button:hover {
+    background-color:  #002ccb;
+  }
+  

@@ -1,0 +1,82 @@
+
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App-header h1{
+  font-size: 1.8rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 8px 15px;
+  font-size: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-size: 1.005rem;
+  transition:ease;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 15px;
+  text-align: left;
+}
+
+thead tr {
+  background-color:#340777;
+  color: #ffffff;
+  text-align: left;
+  font-weight:200;
+}
+
+th, td {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #cecbcb;
+  background-color: #d3d1d144;
+  border: none;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f34b;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #340777;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}

@@ -1,0 +1,30 @@
+
+.order-form {
+  margin: 1rem;
+  font-size: .6rem;
+  }
+  
+  .order-form input,
+  .order-form button {
+    font-size: 12px; 
+    padding: 8px; 
+    margin: 5px 0; 
+  }
+  
+  .order-form input {
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  .order-form button {
+    width: 100%; 
+    background-color: #9355f7; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+  }
+  
+  .order-form button:hover {
+    background-color: #7a4ac7; 
+  }
+  
